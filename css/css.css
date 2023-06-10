@@ -1,0 +1,146 @@
+
+@font-face {
+	font-family: 'TildaSans';
+	src: url(../fonts/TildaSans-Bold.ttf);
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'TildaSans';
+	src: url(../fonts/TildaSans-Medium.ttf);
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'TildaSans';
+	src: url(../fonts/TildaSans-Regular.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'TildaSans';
+	src: url(../fonts/TildaSans-Black.ttf);
+	font-weight: 900;
+}*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "TildaSans";
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    width: 1470px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+footer{
+    background-color: #292A33;
+    padding: 100px 0;
+   
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}.left img{
+    max-width: 100%;
+
+}
+.social-1{
+    background-image: url(../img/Group\ 18.png);
+    width: 47px;
+    height: 41px;
+}
+
+.social-2{
+    background-image: url(../img/Vector\ 4.png);
+    width: 51px;
+    height: 33px;
+}
+.social-1:hover{
+    background-image: url(../img/Group\ 19\ \(2\).png);
+    width: 54px;
+    height: 47px;
+    
+}
+
+.social-2:hover{
+    background-image: url(../img/Group\ 20\ \(2\).svg);
+    width: 57px;
+    height: 40px;
+  
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    max-width: 113px;
+    justify-content: space-between;
+}
+
+
+.midle ul, .right ul{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+  
+}
+.midle ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 75%;
+}
+.right ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 60%;
+
+}
+.midle ul li a, .right ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.midle ul li a:hover{
+    color: #B8F3FF;
+    text-shadow:
+      /* White glow */
+      0 0 7px #B8F3FF,
+      0 0 10px #B8F3FF,
+      0 0 21px #B8F3FF,
+      /* Green glow */
+      0 0 42px #00D5FF,
+      0 0 82px #00D5FF,
+      0 0 92px #00D5FF,
+      0 0 102px #00D5FF,
+      0 0 151px #00D5FF;
+  
+
+}
+.right ul a:hover{
+    color: #B8F3FF;
+    text-shadow:
+      /* White glow */
+      0 0 7px #B8F3FF,
+      0 0 10px #B8F3FF,
+      0 0 21px #B8F3FF,
+      /* Green glow */
+      0 0 42px #00D5FF,
+      0 0 82px #00D5FF,
+      0 0 92px #00D5FF,
+      0 0 102px #00D5FF,
+      0 0 151px #00D5FF;
+}
+
+.bold{
+    font-weight: 600;
+    font-size: 22px;
+}
+
